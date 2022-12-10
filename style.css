@@ -1,0 +1,45 @@
+body {
+    background-color:black;
+}
+
+ form {
+    width: 500px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left:150px;
+    font-weight: 200;
+    margin-top: 100px;
+}
+
+form input {
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+form label {
+    display: inline;
+    font-weight: lighter;
+}
+
+button {
+    padding: 5px 30px;
+    border-radius: 0px;
+}
+
+.FORM {
+    padding-left: 150px;
+}
+
+
+input[type=date]{ 
+    color: transparent; 
+} 
+.active input[type=date]{ 
+    color: inherit; 
+}
